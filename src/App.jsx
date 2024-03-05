@@ -1,11 +1,15 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/header/header";
+import { Header, Home } from "./components";
 
 const App = () => {
   return (
     <>
       <Header />
+
+      <main className="main">
+        <Home />
+      </main>
     </>
   );
 };
